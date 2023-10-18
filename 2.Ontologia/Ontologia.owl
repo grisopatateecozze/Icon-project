@@ -1,0 +1,1326 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pino/ontologies/2023/8/untitled-ontology-5"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pino/ontologies/2023/8/untitled-ontology-5">
+    <Prefix name="" IRI="http://www.semanticweb.org/pino/ontologies/2023/8/untitled-ontology-5/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-5" IRI="http://www.semanticweb.org/pino/ontologies/2023/8/untitled-ontology-5#"/>
+    <Declaration>
+        <Class IRI="#geni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#paziente"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_mutated"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_notMutated"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ATRX"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BCOR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CIC"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#CSMD3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EGFR"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FAT4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#FUBP1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GRIN2A"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Grade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IDH1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#IDH2"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID_gene"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#MUC16"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NF1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NOTCH1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PDGFRA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PIK3CA"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PIK3R1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PTEN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#RB1"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Race"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SMARCA4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TP53"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mutated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATRX_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BCOR_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BCOR_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIC_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIC_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSMD3_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSMD3_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EGFR_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EGFR_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FAT4_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FAT4_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FUBP1_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FUBP1_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GRIN2A_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GRIN2A_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDH1_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDH1_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDH2_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IDH2_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MUC16_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MUC16_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NF1_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NF1_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NOTCH1_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NOTCH1_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PDGFRA_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PDGFRA_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIK3CA_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIK3CA_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIK3R1_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PIK3R1_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PTEN_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PTEN_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB1_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RB1_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SMARCA4_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SMARCA4_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TP53_false"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TP53_true"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paziente1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paziente2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paziente3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paziente4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paziente5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#paziente6"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#geni"/>
+        <Class IRI="#paziente"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#geni"/>
+        <Class IRI="#paziente"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#ATRX_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#BCOR_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#CIC_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#CIC_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#CSMD3_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#CSMD3_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#EGFR_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#EGFR_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#FAT4_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#FAT4_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#FUBP1_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#FUBP1_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#GRIN2A_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#GRIN2A_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#IDH1_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#IDH1_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#IDH2_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#IDH2_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#MUC16_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#MUC16_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#NF1_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#NF1_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#NOTCH1_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#NOTCH1_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PDGFRA_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PDGFRA_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PIK3CA_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PIK3CA_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PIK3R1_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PIK3R1_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PTEN_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#PTEN_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#RB1_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#RB1_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#SMARCA4_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#SMARCA4_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#TP53_false"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#geni"/>
+        <NamedIndividual IRI="#TP53_true"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paziente"/>
+        <NamedIndividual IRI="#paziente1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paziente"/>
+        <NamedIndividual IRI="#paziente2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paziente"/>
+        <NamedIndividual IRI="#paziente3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paziente"/>
+        <NamedIndividual IRI="#paziente4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paziente"/>
+        <NamedIndividual IRI="#paziente5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#paziente"/>
+        <NamedIndividual IRI="#paziente6"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <NamedIndividual IRI="#BCOR_true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <NamedIndividual IRI="#ATRX_false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_mutated"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <NamedIndividual IRI="#BCOR_true"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#ATRX_false"/>
+        <Literal>ATRX</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#ATRX_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+        <Literal>ATRX</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#ATRX_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+        <Literal>BCOR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#BCOR_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#BCOR_true"/>
+        <Literal>BCOR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#BCOR_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#CIC_false"/>
+        <Literal>CIC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#CIC_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#CIC_true"/>
+        <Literal>CIC</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#CIC_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#CSMD3_false"/>
+        <Literal>CSMD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#CSMD3_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#CSMD3_true"/>
+        <Literal>CSMD3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#CSMD3_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#EGFR_false"/>
+        <Literal>EGFR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#EGFR_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#EGFR_true"/>
+        <Literal>EGFR</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#EGFR_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#FAT4_false"/>
+        <Literal>FAT4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#FAT4_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#FAT4_true"/>
+        <Literal>FAT4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#FAT4_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#FUBP1_false"/>
+        <Literal>FUBP1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#FUBP1_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#FUBP1_true"/>
+        <Literal>FUBP1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#FUBP1_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#GRIN2A_false"/>
+        <Literal>GRIN2A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#GRIN2A_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#GRIN2A_true"/>
+        <Literal>GRIN2A</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#GRIN2A_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#IDH1_false"/>
+        <Literal>IDH1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#IDH1_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#IDH1_true"/>
+        <Literal>IDH1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#IDH1_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#IDH2_false"/>
+        <Literal>IDH2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#IDH2_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#IDH2_true"/>
+        <Literal>IDH2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#IDH2_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#MUC16_false"/>
+        <Literal>MUC16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#MUC16_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#MUC16_true"/>
+        <Literal>MUC16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#MUC16_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#NF1_false"/>
+        <Literal>NF1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#NF1_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#NF1_true"/>
+        <Literal>NF1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#NF1_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#NOTCH1_false"/>
+        <Literal>NOTCH1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#NOTCH1_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#NOTCH1_true"/>
+        <Literal>NOTCH1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#NOTCH1_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PDGFRA_false"/>
+        <Literal>PDGFRA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PDGFRA_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PDGFRA_true"/>
+        <Literal>PDGFRA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PDGFRA_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PIK3CA_false"/>
+        <Literal>PIK3CA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PIK3CA_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PIK3CA_true"/>
+        <Literal>PIK3CA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PIK3CA_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PIK3R1_false"/>
+        <Literal>PIK3R1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PIK3R1_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PIK3R1_true"/>
+        <Literal>PIK3R1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PIK3R1_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PTEN_false"/>
+        <Literal>PTEN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PTEN_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#PTEN_true"/>
+        <Literal>PTEN</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#PTEN_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#RB1_false"/>
+        <Literal>RB1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#RB1_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#RB1_true"/>
+        <Literal>RB1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#RB1_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#SMARCA4_false"/>
+        <Literal>SMARCA4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#SMARCA4_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#SMARCA4_true"/>
+        <Literal>SMARCA4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#SMARCA4_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#TP53_false"/>
+        <Literal>TP53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#TP53_false"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID_gene"/>
+        <NamedIndividual IRI="#TP53_true"/>
+        <Literal>TP53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#mutated"/>
+        <NamedIndividual IRI="#TP53_true"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATRX"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">33</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BCOR"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Grade"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#paziente1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATRX"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BCOR"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Grade"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#paziente2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATRX"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">39</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BCOR"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Grade"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#paziente3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATRX"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">29</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BCOR"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Grade"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#paziente4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATRX"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">46</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BCOR"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Grade"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#paziente5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ATRX"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">67</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#BCOR"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Gender"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Grade"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Race"/>
+        <NamedIndividual IRI="#paziente6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_mutated"/>
+        <Class IRI="#paziente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <Class IRI="#paziente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_mutated"/>
+        <Class IRI="#geni"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_notMutated"/>
+        <Class IRI="#geni"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Grade"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Race"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ATRX"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BCOR"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CIC"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#CSMD3"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EGFR"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FAT4"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#FUBP1"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GRIN2A"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Gender"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Grade"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IDH1"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#IDH2"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID_gene"/>
+        <Class IRI="#geni"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#MUC16"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NF1"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NOTCH1"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PDGFRA"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PIK3CA"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PIK3R1"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PTEN"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#RB1"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Race"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SMARCA4"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TP53"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mutated"/>
+        <Class IRI="#geni"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#paziente"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#ATRX"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Age_of_diagnosis"/>
+        <Datatype abbreviatedIRI="xsd:nonNegativeInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#BCOR"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CIC"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#CSMD3"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#EGFR"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FAT4"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#FUBP1"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GRIN2A"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Gender"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Grade"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IDH1"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#IDH2"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID_gene"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#MUC16"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NF1"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NOTCH1"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PDGFRA"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PIK3CA"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PIK3R1"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PTEN"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#RB1"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Race"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#SMARCA4"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TP53"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mutated"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_mutated</IRI>
+        <Literal>has_mutated(paziente1, IDH1)-&gt; bool</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
