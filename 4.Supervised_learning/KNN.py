@@ -21,7 +21,7 @@ from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 
 # Caricamento del dataset dal file .csv
-dataset = pd.read_csv('../Ontologia/TCGA_InfoWithGrade.csv')
+dataset = pd.read_csv('../2.Ontologia/TCGA_InfoWithGrade.csv')
 
 # esplorazione del dataset
 print(dataset.info())
