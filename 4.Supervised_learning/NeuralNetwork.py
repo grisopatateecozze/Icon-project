@@ -19,7 +19,7 @@ from sklearn.metrics import confusion_matrix, classification_report, roc_auc_sco
     average_precision_score, precision_recall_curve, f1_score
 
 # caricamento il dataset
-data = pd.read_csv('../Ontologia/TCGA_InfoWithGrade.csv')
+data = pd.read_csv('../2.Ontologia/TCGA_InfoWithGrade.csv')
 
 # esplorazione del dataset
 print(data.info())
