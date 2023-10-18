@@ -20,7 +20,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV
 
 # Caricamento del dataset da un file CSV
-dataset = pd.read_csv("../Ontologia/TCGA_InfoWithGrade.csv")
+dataset = pd.read_csv("../2.Ontologia/TCGA_InfoWithGrade.csv")
 
 # esplorazione del dataset
 print(dataset.info())
