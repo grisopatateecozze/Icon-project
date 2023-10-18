@@ -21,7 +21,7 @@ from sklearn.metrics import average_precision_score
 from inspect import signature
 
 # Caricamento del dataset da un file CSV
-dataset = pd.read_csv("../Ontologia/TCGA_InfoWithGrade.csv")
+dataset = pd.read_csv("../2.Ontologia/TCGA_InfoWithGrade.csv")
 
 # esplorazione del dataset
 print(dataset.info())
