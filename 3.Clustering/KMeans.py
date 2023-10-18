@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 
-dataset0 = pd.read_csv('../Ontologia/TCGA_InfoWithGrade.csv')
+dataset0 = pd.read_csv('../2.Ontologia/TCGA_InfoWithGrade.csv')
 dataset = dataset0
 
 # esecuzione K-means per un range di K cluster
